@@ -11,7 +11,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #e9ebee;
+    background-color: #ffffff;
     height: 100vh;
 }
 
@@ -24,7 +24,7 @@ header {
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 25px;
 }
 
 header nav ul {
@@ -35,7 +35,7 @@ header nav ul {
 header nav ul li {
     display: inline;
     margin-right: 15px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .flex-row {
@@ -43,21 +43,21 @@ header nav ul li {
     flex-direction: row;
 }
 
-.bg th{
+.nmn th{
     background-color: #3b5998;
     color: white;
     padding: 5px;
     text-align: left;
 }
 
-table.bg {
+table.nmn {
     margin-top: 15px;
     padding: 0;
     border-spacing: 0;
     border: 1px solid #3b5998;
 }
 
-.bg2 th{
+.nmn2 th{
     background-color: #3b5998;
     font-weight: bolder;
     color: whitesmoke;
@@ -65,7 +65,7 @@ table.bg {
     text-align: left;
 }
 
-.bg2{
+.nmn2{
     margin-top: 15px;
     padding: 0;
     border-spacing: 0;
@@ -130,7 +130,6 @@ table.bg {
     list-style-type: none;
 }
 
-/* Profile Info Section */
 #profile-info {
     margin-left: 20px;
 }

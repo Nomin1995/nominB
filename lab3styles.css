@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.link td {
+    border: 1px solid gray;  
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9ebee;
+    height: 100vh;
+}
+
+
+header {
+    background-color: #3b5998;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 10px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.bg th{
+    background-color: #3b5998;
+    color: white;
+    padding: 5px;
+    text-align: left;
+}
+
+table.bg {
+    margin-top: 15px;
+    padding: 0;
+    border-spacing: 0;
+    border: 1px solid #3b5998;
+}
+
+.bg2 th{
+    background-color: #3b5998;
+    font-weight: bolder;
+    color: whitesmoke;
+    padding: 5px;
+    text-align: left;
+}
+
+.bg2{
+    margin-top: 15px;
+    padding: 0;
+    border-spacing: 0;
+    border: 1px solid #3b5998;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+#profile {
+    margin: 20px auto;
+    width: 90%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 100vh;
+}
+
+#left-sidebar {
+    background-color: #dfe3ee;
+    padding: 15px;
+    width: 250px;
+    margin-right: 20px;
+}
+
+#left-sidebar ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+#left-sidebar ul li {
+    margin-bottom: 10px;
+}
+
+
+#main-profile {
+    background-color: white;
+    padding: 15px;
+    flex: 1;
+}
+
+#picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+#picture a {
+    text-align: center;
+    margin-top: 10px;
+    color: #3b5998;
+    text-decoration: none;
+
+}
+
+#top-section {
+    display: flex;
+    list-style-type: none;
+}
+
+/* Profile Info Section */
+#profile-info {
+    margin-left: 20px;
+}
+
+#info table {
+    width: 100%;
+}
+
+#info th {
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+}
+
+#info td {
+    padding: 5px 0;
+}
+
+footer {
+    background-color: #3b5998;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

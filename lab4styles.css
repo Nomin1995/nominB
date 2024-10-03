@@ -123,6 +123,8 @@
     height: 100vh;
     padding: 0 30px;
     background-image: url(mongolian.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 section {
     margin-bottom: 40px;

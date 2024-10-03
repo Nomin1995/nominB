@@ -51,7 +51,7 @@
 }
 .header-text p{
     font-size: 20px;
-    color: rgb(194, 117, 175);
+    color: rgb(241, 139, 216);
 }
 .content{
     display: flex;
@@ -121,8 +121,8 @@
 .right-area{
     width: 70%;
     height: 100vh;
-    margin-top: 30px;
     padding: 0 30px;
+    background-image: url(mongolian.jpg);
 }
 section {
     margin-bottom: 40px;
@@ -132,13 +132,12 @@ h2 {
     border-bottom: 2px solid rgb(194, 117, 175);
     padding-bottom: 5px;
     margin-bottom: 10px;
-    color: rgb(181, 117, 194);
+    color: rgb(156, 37, 180);
 }
 .aboutme p {
     word-break: break-all;
     text-align: justify;
 }
-
 .education{
     margin-top: 30px;
 }

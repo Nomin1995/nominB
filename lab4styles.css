@@ -20,6 +20,7 @@
 }
 .header{
     background-image: url(1.jpg);
+    background-size: cover;
 }
 .header img{
     width: 200px;

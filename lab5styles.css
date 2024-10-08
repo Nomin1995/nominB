@@ -129,6 +129,7 @@ body{
     background-color: #9090A5 ;
     color: white;
     font-size: 15px;
+    border-radius: 10px;
 }
 .Welcome p{
     font-size: 10px;

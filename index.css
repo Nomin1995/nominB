@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: white;
+    padding: 0px;
+}
+.container{
+    flex: 1;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+header{
+    background-color: #1b1b6c;
+    padding: 13px 30px;
+    color: white;
+    font-size: 15px;
+    margin: 0;
+}
+.nmn{
+    background-color: #13124f;
+    padding: 35px;
+    color: white;
+    text-align:left
+}
+.nmn p{
+    font-size: 10px;
+    margin-bottom: 10px ;
+}
+.lab{
+    margin-top: 20px;
+}

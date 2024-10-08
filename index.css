@@ -43,3 +43,10 @@ header{
 .lab{
     margin-top: 20px;
 }
+footer {
+    text-align: start;
+    background-color: #1b1b6c;
+    color: white;
+    padding: 13px 30px;
+    margin-top: 40px;
+}

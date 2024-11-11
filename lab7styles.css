@@ -253,19 +253,41 @@
     header{
       padding: 2rem;
     }
-  
+    header .fa-bars{
+        display: block;
+    }
+    header .navbar{
+        position: absolute;
+        top:100%; left: 0; right: 0;
+        background: #eee;
+        border-top: .1rem solid rgba(0,0,0,.1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    header #toggler:checked ~ .navbar{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    header .navbar a{
+        display: block;
+        border-radius: .5rem;
+        padding:1.5rem;
+        margin: 1.5rem;
+        background: #eee;
+      }
+      .home .content h3{
+        font-size: 5rem;
+      }
     .grid-container1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);   
     gap: 5px;  
-  }
+    }
     .products{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);   
     gap: 5px; 
-  }
+    }
   }
   
   

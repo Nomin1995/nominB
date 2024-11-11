@@ -247,7 +247,7 @@
       background: #eee;
     }
     header .navbar h1{
-      display: block;
+      display: flex;
       border-radius: .5rem;
       padding:1.5rem;
       margin: 1.5rem;

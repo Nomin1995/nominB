@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodlogo2</title>
+</head>
+<body>
+    <h1>Bodlogo2</h1>
+    <script>
+        var x = window.prompt("Hoorondiin zaig oruulna uu");
+        var y = parseInt(x);
+        
+        const wolfS = 25; 
+        const rabbitS = 18; 
+        const diffSpeed = wolfS - rabbitS;
+
+        var timeInHours = y / diffSpeed; 
+        var timeInMinutes = Math.floor(timeInHours * 60); 
+        var timeInSeconds = Math.floor((timeInHours * 3600) % 60); 
+
+        document.writeln(`${timeInMinutes} min ${timeInSeconds} sec iin daraa chono tuulaig guitsne.`);
+    </script>
+</body>
+</html>

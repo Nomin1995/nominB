@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodlogo1</title>
+</head>
+<body>
+    <h1>Palindrome esehiig shalgah</h1>
+    <script>
+        var x = window.prompt("too oruulna uu");
+        var y = parseInt(x);
+        var s = 0;
+        while(y>0){
+            s = s+y%10;
+            y = Math.floor(y/10);
+        }
+
+
+        var o = s;
+        var r = 0;
+        while(s>0){
+            r = r*10+s%10;
+            s = Math.floor(s/10);
+        }
+
+        if (o === r) document.writeln("palindrome");
+        else document.writeln("palindrome bish");
+        
+    </script>
+</body>
+</html>

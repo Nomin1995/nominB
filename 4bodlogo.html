@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodlogo4</title>
+</head>
+<body>
+    <h1>5 toonii hamgiin baga huwaagdagchiig oloh</h1>
+  <script>
+  function findLCD(numbers) {
+     function lcm(a, b) {
+        return (a * b) / gcd(a, b);
+    }
+    return numbers.reduce((accumulator, currentValue) => lcm(accumulator, currentValue));}
+    const numbers = [2, 3, 2, 6, 2];
+    const lcd = findLCD(numbers);
+    document.writeln(`Hamgiin baga huwaagdagch : ${lcd}`);
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodlogo5</title>
+</head>
+<body>
+    <h1>Bodlogo5</h1>
+    <script>
+        var x = window.prompt("Too oruulna uu");
+        var y = parseFloat(x); 
+
+        var currentHour = new Date().getHours(); 
+        var currentMin = new Date().getMinutes(); 
+
+        if (currentHour < 12) {
+            var square = y * y;
+            document.writeln(`${currentHour}:${currentMin} bolj bn`);
+            document.writeln(`Toonii kvadrat: ${square}`);
+        } else {
+            var root = Math.sqrt(y);
+            document.writeln(`${currentHour}:${currentMin} bolj bn`);
+            document.writeln(`Toonii yzguur: ${root}`);
+        }
+    </script>
+</body>
+</html>

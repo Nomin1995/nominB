@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weolcome toCookie Hangman</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: url(Cookie.jpg);
+            background-size: cover;
+        }
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .start-button{
+            margin-top: 30px;
+        }
+        .start-button a {
+            display: inline-block;
+            background-color: rgb(240, 154, 168);
+            color: #fff;
+            padding: 15px 15px;
+            font-size: 2rem;
+            text-decoration: none;
+            border-radius: 15px;
+            transition: transform 0.3s ease, background 0.3s ease;
+        }
+        .start-button a:hover {
+            background-color: grey;
+            transform: scale(1.2); 
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <div class="start-button">
+                <a href="hangman.html">Start Game</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

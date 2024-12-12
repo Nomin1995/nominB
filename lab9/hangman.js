@@ -9,16 +9,6 @@ const playAgainBtn = gameModal.querySelector("button");
 let currentWord, correctLetters, wrongGuessCount;
 const maxGuesses = 5;
 
-const resetGame = () => {
-    correctLetters = [];
-    wrongGuessCount = 0;
-    hangmanImage.src = "game0.jpg";
-    guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`;
-    wordDisplay.innerHTML = currentWord.split("").map(() => `<li class="letter"></li>`).join("");
-    keyboardDiv.querySelectorAll("button").forEach(btn => btn.disabled = false);
-    gameModal.classList.remove("show");
-}
-
 const getRandomWord = () => {
     const { word, hint } = wordList[Math.floor(Math.random() * wordList.length)];
     currentWord = word; 
@@ -59,6 +49,15 @@ for (let i = 97; i <= 122; i++) {
     button.innerText = String.fromCharCode(i);
     keyboardDiv.appendChild(button);
     button.addEventListener("click", (e) => initGame(e.target, String.fromCharCode(i)));
+}
+const resetGame = () => {
+    correctLetters = [];
+    wrongGuessCount = 0;
+    hangmanImage.src = "game0.jpg";
+    guessesText.innerText = `${wrongGuessCount} / ${maxGuesses}`;
+    wordDisplay.innerHTML = currentWord.split("").map(() => `<li class="letter"></li>`).join("");
+    keyboardDiv.querySelectorAll("button").forEach(btn => btn.disabled = false);
+    gameModal.classList.remove("show");
 }
 
 getRandomWord();

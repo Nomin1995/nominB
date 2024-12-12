@@ -20,8 +20,7 @@ body {
     gap: 70px;
     padding: 60px 40px;
     background: #fff;
-    border-radius: 15px;
-    
+    border-radius: 15px;   
     align-items: flex-end;
     justify-content: space-between;
     box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
@@ -32,12 +31,14 @@ body {
 }
 .hangman-box h1 {
     font-size: 1.45rem;
+    color: rgb(250, 170, 183);
     text-align: center;
     margin-top: 20px;
     text-transform: uppercase;
 }
 .game-box .word-display {
     gap: 10px;
+    color: pink;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +52,7 @@ body {
     font-weight: 600;
     margin-bottom: 40px;
     text-transform: uppercase;
-    border-bottom: 3px solid #000;
+    border-bottom: 3px solid pink;
 }
 .word-display .letter.guessed {
     margin: -40px 0 35px;
@@ -132,7 +133,7 @@ body {
     max-width: 130px;
     margin-bottom: 20px;
 }
-.game-modal img[src="images/victory.gif"] {
+.game-modal img[src="congrats.gif"] {
     margin-left: -10px;
 }
 .game-modal h4 {

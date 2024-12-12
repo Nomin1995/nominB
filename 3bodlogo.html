@@ -13,15 +13,15 @@
         
     const floors = 9;
     const entrances = 3;
-    const apartments = 4;
+    const door = 4;
 
-    var apartmentsPerEntrance = floors * apartments; 
+    var negentrance = floors * door; 
 
-    var entranceNumber = Math.ceil(y / apartmentsPerEntrance);
-    var floorNumber = Math.ceil((y % apartmentsPerEntrance) / apartments);
-    var doorNumber = (y % apartments);
+    var entranceNumber = Math.ceil(y / negentrance);
+    var floorNumber = Math.ceil((y % negentrance) / door);
+    var doorNumber = (y % door);
 
         document.writeln(`${y} toot  ni ${entranceNumber}-r ortsnii ${floorNumber}-r davhriin, ${doorNumber}-r haalga bn.`);
     </script>
 </body>
-</html>
+</html> 

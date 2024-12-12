@@ -14,7 +14,7 @@ xhr.onload = function(){
             const newsItem = document.createElement("div");
             newsItem.className = "news-item";
             newsItem.innerHTML = `
-            <a href="news.html?id=${encodeURIComponent(id)}">
+            <a href="2doh.html?id=${encodeURIComponent(id)}">
                 ${title}
             </a>`;
         newsList.appendChild(newsItem);}

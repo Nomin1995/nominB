@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    background: #fce38a;
+}
+
+h1 {
+    text-align: center;
+    background:  #fce38a;
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1.3rem;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 10px;
+
+}
+#newsList, #newsDetail {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 100%;
+    background: #fff;
+    border: 1px solid #fce38a;;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #fce38a;
+    transition: background-color 0.3s ease;
+}
+
+.news-item:hover {
+    background-color: #fce38a;
+}
+
+.news-item a {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+
+.news-item a:hover {
+    text-decoration: none;
+    color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #fce38a;
+    padding: 10px;
+
+}
+header img{
+    max-width: 100px;
+}
+header .navbar a{
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    color: #666;
+  }
+  header .navbar a:hover{
+    color: var(--black);
+  }
+  header .icons a{
+    font-size: 1rem;
+    color: #666;
+    margin-left: 1.5rem;
+  }
+  header .icons a:hover{
+    color: var(--black);
+  }
+      

@@ -16,12 +16,7 @@
             y = Math.floor(y/10);
         }
 
-        var o = s;
-        var r = 0;
-        while(s>0){
-            r = r*10+s%10;
-            s = Math.floor(s/10);
-        }
+
         document.writeln(`${x} -н цифрүүдийн нийлбэр нь`)
         if (o === r) document.writeln("палиндром байна.");
         else document.writeln("палиндром биш байна.");
